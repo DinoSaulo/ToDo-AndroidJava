@@ -1,0 +1,17 @@
+- Configurar ambiente de desenvolvimento para Android 
+    - Instalar Android studio 
+    - Instalar a SDK
+    - Instalar o Gennymotion
+- Elaborar diagrama UML de funcionamento do aplicativo
+- Extrair dados da API (https://jsonplaceholder.typicode.com/todos/)
+- Exibir todos os dados em uma tabela
+- Testes unitários
+- Refatorações necesárias
+- Criar uma interface amigavel para a tabela
+- Criar campo de busca para TODOs
+- Implementar algorítimo para busca por título 
+    - Deverá checar a string por completo ou por palavras?
+- Testes unitários e de integração
+- Refatorações necesárias
+- Documentação no README.md
+- Envio do link para Davino Mauro através do e-mail
