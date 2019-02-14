@@ -3,16 +3,16 @@
 - Configurar ambiente de desenvolvimento para Android 
     - Instalar Android studio 
     - Instalar a SDK
-    - Instalar o Gennymotion
+    - Configurar o dispositivo Android para testes
 - Elaborar diagrama UML de funcionamento do aplicativo
 - Extrair dados da API (https://jsonplaceholder.typicode.com/todos/)
 
 -------- Sprint 15/02 - Sexta-feira --------  
 
-- Exibir todos os dados em uma tabela
+- Exibir todos os dados em uma listView
 - Testes unitários
 - Refatorações necesárias
-- Criar uma interface amigavel para a tabela
+- Criar uma interface amigavel para a listView
 
 -------- Sprint 16/02 - Sábado ------------- 
 
