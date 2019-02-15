@@ -1,17 +1,32 @@
+-------- Sprint 14/02 - Quinta-feira -------- 
+
 - Configurar ambiente de desenvolvimento para Android 
     - Instalar Android studio 
     - Instalar a SDK
     - Configurar o dispositivo Android para testes
 - Elaborar diagrama UML de funcionamento do aplicativo
 - Extrair dados da API (https://jsonplaceholder.typicode.com/todos/)
+- Testes unitários
+- Refatorações necesárias
+
+-------- Sprint 15/02 - Sexta-feira --------  
+
 - Exibir todos os dados em uma listView
 - Testes unitários
 - Refatorações necesárias
 - Criar uma interface amigavel para a listView
+
+-------- Sprint 16/02 - Sábado ------------- 
+
 - Criar campo de busca para TODOs
 - Implementar algorítimo para busca por título 
     - Deverá checar a string por completo ou por palavras?
 - Testes unitários e de integração
 - Refatorações necesárias
+
+-------- Sprint 17/02 - Domingo ------------ 
+
 - Documentação no README.md
 - Envio do link para Davino Mauro através do e-mail
+
+-------- Sprint 18/02 - Segunda-feira --------
