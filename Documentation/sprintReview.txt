@@ -5,8 +5,8 @@ O Diagrama de classes foi colocado imcompleto no repositório.
 
 -------- Sprint 15/02 - Sexta-feira --------  
 
-Após passar horas tentando implementar a ListView não consegui, tive problemas com o Array Adapter, consultei a documentação e diversos outros tutoriais mesmo assim não consegui.
-Devido a essa sprint não ser um dos requisitos na descrição do projeto resolvi continuar com o TextView e ir para a próxima sprint.
+Passei horas tentando implementar a ListView, porém, sem sucesso, pois tive problemas com o Array Adapter, consultei a documentação e diversos outros tutoriais, mesmo assim não consegui implementar.
+Devido a essa sprint não ser um dos requisitos na descrição do projeto resolvi continuar com o TextView, que já implementei na sprint anterior e ir para a próxima sprint.
 
 -------- Sprint 16/02 - Sábado ------------- 
 
@@ -17,3 +17,5 @@ Devido a essa sprint não ser um dos requisitos na descrição do projeto resolv
 
 
 -------- Sprint 18/02 - Segunda-feira --------
+
+
