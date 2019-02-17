@@ -10,7 +10,10 @@ Devido a essa sprint não ser um dos requisitos na descrição do projeto resolv
 
 -------- Sprint 16/02 - Sábado ------------- 
 
-
+Modifiquei a interface do aplicativo, inserindo um EditText e um Putton para a pesquisa e também fiz alterações no código para implementar a busca.
+Entretanto, no momento da compilação começou a aparecer o erro "Error running 'app': Default Activity not found", passei a tarde inteira tentando resolver o mesmo, mas sem sucesso. 
+Para contornar esse bug tive que reinstalar o AndroidStudio e configurar novamente todo o ambiente de desenvolvimento.
+Devido a o seguinte ocorrido acabei perdendo muito tempo e não consegui realizar a seguinte sprint, então implementarei ela no próximo dia.
 
 -------- Sprint 17/02 - Domingo ------------ 
 
