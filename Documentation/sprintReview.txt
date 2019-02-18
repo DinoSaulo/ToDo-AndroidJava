@@ -13,11 +13,16 @@ Devido a essa sprint não ser um dos requisitos na descrição do projeto resolv
 Modifiquei a interface do aplicativo, inserindo um EditText e um Putton para a pesquisa e também fiz alterações no código para implementar a busca.
 Entretanto, no momento da compilação começou a aparecer o erro "Error running 'app': Default Activity not found", passei a tarde inteira tentando resolver o mesmo, mas sem sucesso. 
 Para contornar esse bug tive que reinstalar o AndroidStudio e configurar novamente todo o ambiente de desenvolvimento.
-Devido a o seguinte ocorrido acabei perdendo muito tempo e não consegui realizar a seguinte sprint, então implementarei ela no próximo dia.
+Devido a o seguinte ocorrido acabei perdendo muito tempo e não consegui realizar a seguinte sprint, então,git  implementarei ela no próximo dia.
 
 -------- Sprint 17/02 - Domingo ------------ 
 
-
+Reservei o dia para conseguir implementar a busca de ToDos, consegui aprender como criar mais de uma activity e relacionar a principal com ela e também passar dados entre elas.
+No início do dia tive bastantes problemas, pois o aplicativo sempre parava de funcionar quando realizava uma consulta a API. Depois de um tempo descobri que avia um pequeno erro no código que pegava os dados da API e corrigi o mesmo.
+Também estruturei todo o xml da nova página e também vinculei a sua abertura com o click de um botão que estaria na tela principal que além de abrir a tela de busca passaria o texto digitado no campo do EditText para a nova activity.
+Idealizei vários algorímios para realizar uma busca eficiente, neste criei um objeto que receberia todos os dados de um todo e todos em conjunto seriam armazenados em array. Mas sentí dificuldades em passar esses dados entre activities, então, optei por armaznar todos os dados em uma matriz e aumentar o débto técnico, mas posteriormente irei implementar o objeto novamente caso possível.
+Durante a tarde tive bastantes problemas com o AndroidStudio, o erro da vez foi o "android.os.ParcelableException: java.io.IOException"  procurei no google e em foruns como o Stack Overflow, entretanto, sem sucesso, passei a acreditar que o erro era resultado de uma tentativa de acessar uma posição inválida da memória, tentei fazer modificações, entretanto, o erro ainda persistiu.
+Então resolvi criar um projeto novo para averiguar a natureza do erro, e mesmo com um aplicativo "vazio" o erro ainda persistiu. Tentei esvaziar a cache e outros dados temporários da IDE assim como reintalar a mesma, porém, o erro ainda continuou. Tentarei executar o código em outro computador, caso, o erro ainda persista, tentarei utilizar outra IDE. 
 
 -------- Sprint 18/02 - Segunda-feira --------
 

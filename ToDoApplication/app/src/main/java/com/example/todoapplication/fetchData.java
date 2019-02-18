@@ -18,6 +18,17 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
     String data = "";
     String dataParsed = "";
     String singleParsed = "";
+    public ToDo todos[] = new ToDo[512];
+    String ToDo2[][] = new String[512][4];
+
+    public ToDo[] getTodos() {
+        return todos;
+    }
+
+    public String[][] getToDo2() {
+        return ToDo2;
+    }
+
     @Override
     protected Void doInBackground(Void... voids) {
         try{
@@ -39,6 +50,11 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
                                 "title: " + JO.get("title") + "\n" +
                                 "completed: " + JO.get("completed") + "\n"+
                                 "------------------------" + "\n";
+                todos[i] = new ToDo(JO.get("userId"), JO.get("id"), JO.get("title"),JO.get("completed"));
+                ToDo2[i][0] = (String) JO.get("userId");
+                ToDo2[i][0] = (String) JO.get("id");
+                ToDo2[i][0] = (String) JO.get("title");
+                ToDo2[i][0] = (String) JO.get("completed");
 
                 dataParsed = dataParsed + singleParsed;
             }
@@ -54,10 +70,12 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
         return null;
     }
 
+
     protected void onPostExecute(Void aVoid) {
        super.onPostExecute(aVoid);
 
        MainActivity.data.setText(this.dataParsed);
+       //SearchActivity.data.setText(this.dataParsed);
     }
 }
 
