@@ -1,5 +1,5 @@
 # ToDo-AndroidJava
-Aplicativo para armazenar e fazer uma lista de tarefas ToDo -  Java (Android) + SDK 26
+Aplicativo para consultar uma API com vários TODOs e realizar uma busca -  Java (Android) + SDK 26
 
 ### Objetivo do projeto - Davino Mauro
 ```
