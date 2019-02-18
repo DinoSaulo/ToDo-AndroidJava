@@ -22,6 +22,8 @@ O aplicativo deverá contemplar os seguintes pontos, que serão avaliados:
 
 [Sprint Review do denvolvimento](/Documentation/sprintReview.txt)
 
+[Aprendizados e Dificuldades do desenvolvimento](/Documentation/Aprendizados&Dificuldades.txt)
+
 ### Screenshots
 
 ![Tela1_CarregandoaAPI](https://i.imgur.com/LIZVKdL.png)

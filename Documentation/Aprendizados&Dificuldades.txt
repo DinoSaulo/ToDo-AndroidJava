@@ -1,0 +1,10 @@
+--------------- Aprendizados ---------------
+- Básico do desenvolvimento Android (criar activitys, classes e manipular elementos como um TextView, button, editText e outros)
+- Configuração do ambiente para desenvolvimento para Android em Windows e Linux
+- Padrão MVC para android.
+- Padrões MVP e MVVM (mesmo não utilizando os mesmos, busquei informações sobre o que são e como utiliza-los)
+- Utilizar a biblioteca de manipulação de API JSON com Java
+
+--------------- Dificuldades ---------------
+- Constantes "bugs" no AndroidStudio
+- Não consegui implementar uma ListView para visualização dos TODOs
