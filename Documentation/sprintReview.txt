@@ -26,4 +26,9 @@ Então resolvi criar um projeto novo para averiguar a natureza do erro, e mesmo 
 
 -------- Sprint 18/02 - Segunda-feira --------
 
+Após passar mais algumas horas com o bug relatado na sprint anterior, testei a compilação do aplicativo em outro computador e o mesmo erro apareceu, então, cogitei que o responsável pelo erroseria  o smartphone, então, configurei o ambiente de desenvolvimento para ao invés de utilizar o meu próprio dispositivo para testes, utilizar um emulador de Android (Genymotion), e funcionou.
+Efetuei algumas modificações no código, implementei um algorítimo para pegar os dados do editText e passar ele para outra activity, além de realizar modificações na interface do usuário.
+Porém não cheguei a implementar o algorímio para a busca do título mas nos comentários do código descrevi como faria o mesmo. .
+Não consegui reestruturar o projeto para o padrão MVC, pois, não devido ao fato de não saber como estruturar no início, iniciei o projeto sem o padrão, entretanto, conversando com um desenvolvedor mais experiênte aprendi como implementar a mesma, bastava apenas estruturar o diretório onde está a mainActivity e criar três packages, o Model, o View (Terá dentro mais três diretórios Activity, Fragment e Adapter) e o Controller e separar os arquivos gerados conforme o nome do diretório, mas por questões de tempo não farei.
+Gerei um APK para faciliar a visualização e utilização e também inclui screenshots do aplicativo no README.md.
 

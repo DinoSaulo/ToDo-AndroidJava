@@ -1,6 +1,0 @@
-Installation failed with message Error: android.os.ParcelableException: java.io.IOException: Requested internal only, but not enough space.
-It is possible that this issue is resolved by uninstalling an existing version of the apk if it is present, and then re-installing.
-
-WARNING: Uninstalling will remove the application data!
-
-Do you want to uninstall the existing application?
