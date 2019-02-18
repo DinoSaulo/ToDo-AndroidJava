@@ -7,10 +7,19 @@
     tools:context=".MainActivity">
 
 
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:id="@+id/editInp"
+        android:hint="To Do Title"
+        android:singleLine="true"
+        android:inputType="textCapWords"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="click aqui"
+        android:layout_marginLeft="280dp"
+        android:text="Find Todo"
         android:layout_marginBottom="10dp"
         android:id="@+id/button"/>
 
@@ -25,7 +34,7 @@
             android:padding="5dp"
             android:textSize="24sp"
             android:id="@+id/fetcheddata"
-            android:hint="Fetched text here!!!"
+            android:hint="Loading ToDos ..."
              />
     </ScrollView>
 

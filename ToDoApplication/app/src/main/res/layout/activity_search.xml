@@ -16,8 +16,8 @@
             android:layout_height="match_parent"
             android:padding="5dp"
             android:textSize="24sp"
-            android:id="@+id/fetcheddata2"
-            android:hint="Fetched text here!!!"
+            android:id="@+id/searchedTitle"
+            android:hint="Searching your ToDo ..."
             />
     </ScrollView>
 

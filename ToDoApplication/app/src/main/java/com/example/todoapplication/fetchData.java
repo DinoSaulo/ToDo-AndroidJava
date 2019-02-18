@@ -19,13 +19,13 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
     String dataParsed = "";
     String singleParsed = "";
     public ToDo todos[] = new ToDo[512];
-    String ToDo2[][] = new String[512][4];
+    Object ToDo2[][] = new Object[512][4];
 
     public ToDo[] getTodos() {
         return todos;
     }
 
-    public String[][] getToDo2() {
+    public Object[][] getToDo2() {
         return ToDo2;
     }
 
@@ -45,16 +45,15 @@ public class fetchData extends AsyncTask<Void, Void, Void> {
             JSONArray JA = new JSONArray(data);
             for(int i = 0; i <JA.length(); i++){
                 JSONObject JO = (JSONObject) JA.get(i);
-                singleParsed =  "userId: " + JO.get("userId") + "\n" +
-                                "id: " + JO.get("id") + "\n" +
-                                "title: " + JO.get("title") + "\n" +
-                                "completed: " + JO.get("completed") + "\n"+
-                                "------------------------" + "\n";
-                todos[i] = new ToDo(JO.get("userId"), JO.get("id"), JO.get("title"),JO.get("completed"));
-                ToDo2[i][0] = (String) JO.get("userId");
-                ToDo2[i][0] = (String) JO.get("id");
-                ToDo2[i][0] = (String) JO.get("title");
-                ToDo2[i][0] = (String) JO.get("completed");
+                singleParsed =  "User ID: " + JO.get("userId") + "\n" +
+                                "ID: " + JO.get("id") + "\n" +
+                                "Title: " + JO.get("title") + "\n" +
+                                "Completed: " + JO.get("completed") + "\n"+
+                                "-------------------------------" + "\n";
+                ToDo2[i][0] = JO.get("userId");
+                ToDo2[i][1] = JO.get("id");
+                ToDo2[i][2] = JO.get("title");
+                ToDo2[i][3] = JO.get("completed");
 
                 dataParsed = dataParsed + singleParsed;
             }
