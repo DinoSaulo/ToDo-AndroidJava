@@ -14,8 +14,19 @@ O aplicativo deverá contemplar os seguintes pontos, que serão avaliados:
 * Lembre-se, o foco da atividade NÃO é faze-la no menor tempo possível ou de qualquer jeito, mas sim avaliar se o nível de conhecimento de programação do candidato está adequado com as necessidades do projeto.
 ```
 
+### Documentação do desenvolvimento do aplicativo
+
 [Backlog do Aplicativo](/Documentation/backlog.txt)
 
 [Sprint Backlog do Aplicativo](/Documentation/sprintsBacklog.txt)
 
 [Sprint Review do denvolvimento](/Documentation/sprintReview.txt)
+
+### Screenshots
+
+![Tela1_CarregandoaAPI](https://i.imgur.com/LIZVKdL.png)
+
+![Tela1_APICarregada](https://i.imgur.com/q5aof3y.png)
+
+![Tela2_BuscaDeTODO](https://i.imgur.com/VTsMYcZ.png)
+
